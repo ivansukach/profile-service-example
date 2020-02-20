@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/ivansukach/profile-service-example/grpc/protocol"
-	"github.com/ivansukach/profile-service-example/grpc/repositories"
-	"github.com/ivansukach/profile-service-example/grpc/server"
+	"github.com/ivansukach/profile-service-example/protocol"
+	"github.com/ivansukach/profile-service-example/repositories"
+	"github.com/ivansukach/profile-service-example/server"
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 	"net"

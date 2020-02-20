@@ -2,9 +2,9 @@ package server
 
 import (
 	"context"
-	"github.com/ivansukach/profile-service/protocol"
-	"github.com/ivansukach/profile-service/repositories"
-	"github.com/ivansukach/profile-service/service"
+	"github.com/ivansukach/profile-service-example/protocol"
+	"github.com/ivansukach/profile-service-example/repositories"
+	"github.com/ivansukach/profile-service-example/service"
 	log "github.com/sirupsen/logrus"
 )
 
