@@ -2,7 +2,7 @@ package service
 
 import (
 	"fmt"
-	"github.com/ivansukach/profile-service-example/grpc/repositories"
+	"github.com/ivansukach/profile-service-example/repositories"
 	log "github.com/sirupsen/logrus"
 )
 
