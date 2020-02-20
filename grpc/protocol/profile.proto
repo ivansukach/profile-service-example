@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package protocol;
+
+message Profile{
+    string login = 1;
+    string password = 2;
+    string name = 3;
+    string surname = 4;
+    bool gender = 5;
+    bool hasAnyPets = 6;
+    bool employed = 7;
+    int32 age = 8;
+}
+message CreateRequest {
+    Profile profile = 1;
+}
+
+message SuccessResponse {
+    bool success = 1;
+}
+service ProfileService {
+    rpc Create (CreateRequest) returns (SuccessResponse);
+
+}
